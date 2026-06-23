@@ -1,0 +1,44 @@
+React uses JSX
+
+node_modules -> installer package (dependencies)
+package.json me dependencies mentioned hai
+node_modules should not be pushed to github
+
+it shud be mentioned in .gitignore file
+
+root component targets main.jsx
+
+from jsx to js, babel is transpiling
+
+const element = <h1>Hello, World!</h1>
+
+to
+
+const element = React.createElement("h1",)
+
+3 parameters
+element name
+styling
+content
+
+
+
+rules
+1. return single parent element (use div or empty tag)
+2. javascript expressions in jsx (use variables or functions of js in curly braces in html code)
+3. attributes use camelCase (use className, label htmlFor, onClick)
+4. self-closing targets
+5. inline styles as objects
+(use double curly braces for javascript objects, single curly braces for variables)
+
+
+npm install *package name*
+
+component name should start with a capital letter.
+
+
+type of props => object
+
+filter map reduce
+
+higher order functions
